@@ -42,7 +42,8 @@ git clone https://github.com/electron/electron-quick-start-typescript app
 
 electron-ts-react
 ```
-git clone https://github.com/electron/electron-quick-start-typescript app
+sudo npm install -g electron-starter
+electron-starter app --template react-ts
 ```
 
 
