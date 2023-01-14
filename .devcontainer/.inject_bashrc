@@ -2,4 +2,3 @@ npm install -g create-react-app
 npm install -g forever
 npm install --save react react-dom
 npm install --save-dev @types/react @types/react-dom
-npm install -g electron-starter
