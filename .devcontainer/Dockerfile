@@ -40,6 +40,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends build-essential
 RUN npm install n -g 
 RUN n lts
 RUN npm install electron -g
+RUN npm install -g create-react-app
+RUN npm install -g forever
 
 # Install noVNC
 RUN mkdir -p /usr/local/novnc \
